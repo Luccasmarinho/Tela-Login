@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #6C57F2, #9B5CF2);
+}
+
+main {
+    display: flex;
+    height: 80vh;
+    width: 60%;
+    box-shadow: 2px 2px 5px black;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.left {
+    width: 50%;
+    background: linear-gradient(to right, #3D9DF2, #4BC3F2, #41E1F2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+   
+
+
+}
+
+.left h1 {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 2px black;
+    margin-top: 40px;
+    
+}
+
+.left p {
+    color: white;
+    font-size: 0.9rem;
+    text-shadow: 0 0 3px black;
+    text-align: justify;
+    margin-bottom: 5.5px;
+    
+}
+
+.left img {
+    width: 440px;
+    margin-top: 25px; 
+}
+
+.right {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 55px;
+}
+
+.right h2 {
+    font-size: 2.2rem;
+    color: #3D9DF2;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.567)
+}
+
+.right h6 {
+    color: #6b6b6bc8;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+}
+
+.right form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+
+.right input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid black;
+    background-color: #eeecec;
+    font-weight: normal;
+
+
+}
+
+.right .btn-login {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 1.0rem;
+    border: 1px solid #3D9DF2;
+    color: #3D9DF2;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+    
+
+}
+
+.right .btn-login:hover {
+    background: linear-gradient(to right, #3D9DF2, #4BC3F2, #41E1F2);
+    color: white;
+    transition: .4s;
+    
+
+}
+
+.newuser {
+    display: flex;
+    font-size: 0.8rem;
+    color: #6b6b6bdb;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: normal;
+
+}
+
+.newuser a {
+    text-decoration: none;
+    color: #2992ed;
+    font-weight: bold;
+
+}
+
+.newuser a:hover {
+    text-decoration: underline;
+}
+
+
+#forgotpassword:hover {
+    color: #2992ed;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    cursor: pointer;
+   
+   
+    
+}
+
+.socialmedia img:hover {
+    transform: scale(1.2);
+    transition: .4s;
+    
+}
